@@ -1,0 +1,1 @@
+EmberQApp = Ember.Application.create()
