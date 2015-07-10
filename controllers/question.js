@@ -7,6 +7,8 @@ QuestionApp.QuestionController = Ember.ObjectController.extend ({
 
     save: function() {
       this.set('isEditing', false);
+      var myQuestion = this.get('model');
+      myQuestion.save();
     },
     delete: function() {
       if (confirm('Are you sure?')) {

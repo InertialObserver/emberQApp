@@ -1,4 +1,6 @@
 <h1>{{title}}</h1>
+<h4>Author: {{author}}</h4>
+<p>{{description}}</p>
 {{#if isEditing}}
 <form>
   <div class="form-group">
@@ -9,6 +11,11 @@
   <div class="form-group">
     <label for="description">Description</label>
     {{textarea id="description" class="form-control" rows="5" value=description}}
+  </div>
+
+  <div class="form-group">
+    <label for="author">Author</label>
+    {{input id="author" class="form-control" value=author}}
   </div>
 
   <button class="btn btn-primary" {{action 'save'}}>Save</button>
