@@ -1,0 +1,1 @@
+QuestionApp = Ember.Application.create()
