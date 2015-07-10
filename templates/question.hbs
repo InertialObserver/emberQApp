@@ -20,12 +20,12 @@
   <button class="btn btn-danger" {{action 'delete'}}>Delete</button>
   {{/if}}
 
-  <!-- <h2>Comments</h2>
-  {{#each comments}}
+  <h2>Answers</h2>
+  {{#each answers}}
   <p>{{text}}</p>
 
   {{/each}}
 
-  <p>{{#link-to 'new-comment' this.id class="btn btn-default"}}New Comment{{/link-to}}</p> -->
+  <p>{{#link-to 'new-answer' this.id class="btn btn-default"}}New Answer{{/link-to}}</p>
 
   {{outlet}}
