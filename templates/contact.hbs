@@ -1,0 +1,21 @@
+<h1>Contact</h1>
+<div class="row">
+  <div class="col-md-6">
+    <p>If you dare...</p>
+    <ul style="list-style-type: none">
+      <li>{{#link-to 'email'}}Email me!{{/link-to}}</li>
+      <li>{{#link-to 'fork'}}Fork me!{{/link-to}}</li>
+      <li>{{#link-to 'hire'}}Hire me!{{/link-to}}</li>
+      <li>{{#link-to 'date'}}Date me!{{/link-to}}</li>
+    </ul>
+
+    {{#if messageSent}}
+    <p>If we are in tune, your message has been received. If you doubt my psychic ability, please use one of the other given methods of contact.</p>
+    {{else}}
+    <p>Or, <a href="#" {{action 'sendMessage'}}>click here</a> to send a secret message.</p>
+    {{/if}}
+  </div>
+  <div class="col-md-6">
+    {{outlet}}
+  </div>
+</div>
