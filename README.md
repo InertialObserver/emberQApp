@@ -2,9 +2,12 @@
 
 This is a simple question and answer app built using ember.js (not CLI) as a project for Epicodus. 
 
-# Contributor(s):
+# Creator
 
 Jessi Iler (https://github.com/InertialObserver)
+
+# Image
+
 Samara Moreland (Copyright holder of image "comic.jpg" 2015)
 
 # Installation
