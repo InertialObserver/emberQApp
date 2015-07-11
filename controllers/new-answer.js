@@ -3,8 +3,7 @@ QuestionApp.NewAnswerController = Ember.Controller.extend({
   actions: {
     save: function() {
       var answer = this.store.createRecord('answer', {
-        text: this.get('text'),
-        author: this.get('author')
+        text: this.get('text')
       });
       answer.save();
 
