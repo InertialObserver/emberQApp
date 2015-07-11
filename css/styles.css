@@ -1,3 +1,15 @@
+p {
+  font-weight:600;
+  font-size:14pt;
+  padding:10px;
+}
+
+li {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
 body {
   padding-top: 50px;
 }
