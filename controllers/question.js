@@ -12,7 +12,9 @@ QuestionApp.QuestionController = Ember.ObjectController.extend ({
     },
     delete: function() {
       if (confirm('Are you sure?')) {
-        this.get('model').destroyRecord();
+        var thisQuestion = this.get('model');
+        thisQuestion.deleteRecord();
+        thisQuestion.save();
         this.transitionToRoute('questions');
       }
     }
