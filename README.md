@@ -1,6 +1,6 @@
 # Ember Question & Answer App (Noch Fragen?)
 
-This is a simple question and answer app built using ember.js (not CLI) as a project for Epicodus. 
+This is a simple question and answer app built using ember.js as a project for Epicodus. 
 
 # Creator
 
