@@ -14,7 +14,7 @@ Samara Moreland (Copyright holder of image "comic.jpg" 2015)
 ------------
 
 Install by first cloning the repository: 
-`$ git clone http://github.com/mgoren/email-ember.git`
+`$ git clone https://github.com/InertialObserver/emberQApp`
 
 Run the following command to start the python server:
 `$ python -m SimpleHTTPServer`
