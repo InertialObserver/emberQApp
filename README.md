@@ -24,7 +24,7 @@ In your browser, go to the following page:
 
 # See it in action!
 
-https://nochfragen.site44.com
+http://www.nochfragen.controltraffic.org/
 
 #Bug reports
 
